@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7D547392783AD23005BEAC7 /* DreamlandDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D547382783AD23005BEAC7 /* DreamlandDemoApp.swift */; };
+		F7D5473B2783AD23005BEAC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D5473A2783AD23005BEAC7 /* ContentView.swift */; };
+		F7D5473D2783AD26005BEAC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7D5473C2783AD26005BEAC7 /* Assets.xcassets */; };
+		F7D547402783AD26005BEAC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7D5473F2783AD26005BEAC7 /* Preview Assets.xcassets */; };
+		F7D5474F2783B0DF005BEAC7 /* Dreamland in Frameworks */ = {isa = PBXBuildFile; productRef = F7D5474E2783B0DF005BEAC7 /* Dreamland */; };
+		F7D547522783B443005BEAC7 /* ColorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D547512783B443005BEAC7 /* ColorDemo.swift */; };
+		F7D547542783B4CE005BEAC7 /* ComponentsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D547532783B4CE005BEAC7 /* ComponentsDemo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F7D547352783AD23005BEAC7 /* DreamlandDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamlandDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D547382783AD23005BEAC7 /* DreamlandDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamlandDemoApp.swift; sourceTree = "<group>"; };
+		F7D5473A2783AD23005BEAC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F7D5473C2783AD26005BEAC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7D5473F2783AD26005BEAC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7D547502783B193005BEAC7 /* Dreamland */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Dreamland; path = ../Dreamland; sourceTree = "<group>"; };
+		F7D547512783B443005BEAC7 /* ColorDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDemo.swift; sourceTree = "<group>"; };
+		F7D547532783B4CE005BEAC7 /* ComponentsDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsDemo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7D547322783AD23005BEAC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D5474F2783B0DF005BEAC7 /* Dreamland in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7D5472C2783AD22005BEAC7 = {
+			isa = PBXGroup;
+			children = (
+				F7D547502783B193005BEAC7 /* Dreamland */,
+				F7D547372783AD23005BEAC7 /* DreamlandDemo */,
+				F7D547362783AD23005BEAC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7D547362783AD23005BEAC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7D547352783AD23005BEAC7 /* DreamlandDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7D547372783AD23005BEAC7 /* DreamlandDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F7D547382783AD23005BEAC7 /* DreamlandDemoApp.swift */,
+				F7D5473A2783AD23005BEAC7 /* ContentView.swift */,
+				F7D547512783B443005BEAC7 /* ColorDemo.swift */,
+				F7D547532783B4CE005BEAC7 /* ComponentsDemo.swift */,
+				F7D5473C2783AD26005BEAC7 /* Assets.xcassets */,
+				F7D5473E2783AD26005BEAC7 /* Preview Content */,
+			);
+			path = DreamlandDemo;
+			sourceTree = "<group>";
+		};
+		F7D5473E2783AD26005BEAC7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F7D5473F2783AD26005BEAC7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7D547342783AD23005BEAC7 /* DreamlandDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D547432783AD26005BEAC7 /* Build configuration list for PBXNativeTarget "DreamlandDemo" */;
+			buildPhases = (
+				F7D547312783AD23005BEAC7 /* Sources */,
+				F7D547322783AD23005BEAC7 /* Frameworks */,
+				F7D547332783AD23005BEAC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DreamlandDemo;
+			packageProductDependencies = (
+				F7D5474E2783B0DF005BEAC7 /* Dreamland */,
+			);
+			productName = DreamlandDemo;
+			productReference = F7D547352783AD23005BEAC7 /* DreamlandDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7D5472D2783AD22005BEAC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					F7D547342783AD23005BEAC7 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = F7D547302783AD22005BEAC7 /* Build configuration list for PBXProject "DreamlandDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7D5472C2783AD22005BEAC7;
+			packageReferences = (
+				F7D5474D2783B0DF005BEAC7 /* XCRemoteSwiftPackageReference "Dreamland" */,
+			);
+			productRefGroup = F7D547362783AD23005BEAC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7D547342783AD23005BEAC7 /* DreamlandDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7D547332783AD23005BEAC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D547402783AD26005BEAC7 /* Preview Assets.xcassets in Resources */,
+				F7D5473D2783AD26005BEAC7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7D547312783AD23005BEAC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D5473B2783AD23005BEAC7 /* ContentView.swift in Sources */,
+				F7D547392783AD23005BEAC7 /* DreamlandDemoApp.swift in Sources */,
+				F7D547542783B4CE005BEAC7 /* ComponentsDemo.swift in Sources */,
+				F7D547522783B443005BEAC7 /* ColorDemo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F7D547412783AD26005BEAC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7D547422783AD26005BEAC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7D547442783AD26005BEAC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DreamlandDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 77U2457882;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trevoradcock.DreamlandDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7D547452783AD26005BEAC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DreamlandDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 77U2457882;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trevoradcock.DreamlandDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7D547302783AD22005BEAC7 /* Build configuration list for PBXProject "DreamlandDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D547412783AD26005BEAC7 /* Debug */,
+				F7D547422783AD26005BEAC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D547432783AD26005BEAC7 /* Build configuration list for PBXNativeTarget "DreamlandDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D547442783AD26005BEAC7 /* Debug */,
+				F7D547452783AD26005BEAC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F7D5474D2783B0DF005BEAC7 /* XCRemoteSwiftPackageReference "Dreamland" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = /Users/devmountain/Code/Dreamland/Dreamland;
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F7D5474E2783B0DF005BEAC7 /* Dreamland */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F7D5474D2783B0DF005BEAC7 /* XCRemoteSwiftPackageReference "Dreamland" */;
+			productName = Dreamland;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F7D5472D2783AD22005BEAC7 /* Project object */;
+}
